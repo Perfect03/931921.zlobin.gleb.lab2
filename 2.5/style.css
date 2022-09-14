@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div {
+  margin-top: 15px;
+  font-size: 11px;
+  color: white;
+}
+
+#text1 {
+  background: green;
+  width: 342px;
+}
+
+#text2 {
+  background: blue;
+  width: 402px;
+  padding: 29px;
+}/*# sourceMappingURL=style.css.map */

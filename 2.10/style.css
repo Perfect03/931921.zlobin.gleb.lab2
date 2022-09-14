@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float {
+  background: aquamarine;
+  width: 150px;
+  height: 80px;
+  margin: 25px;
+}
+
+.clear {
+  background: bisque;
+  margin: 0 10px;
+}/*# sourceMappingURL=style.css.map */

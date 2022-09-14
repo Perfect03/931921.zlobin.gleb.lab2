@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  background: aqua;
+  border: 1px solid black;
+  display: flex;
+  font-size: 12px;
+}
+.root .list {
+  background: bisque;
+  min-width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.root .text {
+  background: darkgray;
+}
+.root .text .flexbox {
+  display: flex;
+}
+.root .text .flexbox img {
+  float: right;
+  width: 300px;
+  height: 265px;
+}
+.root .text .texts {
+  background: darkgray;
+}
+
+@media (max-width: 768px) {
+  .root {
+    flex-wrap: wrap;
+  }
+  .list {
+    min-width: 0;
+    width: 130px;
+  }
+}/*# sourceMappingURL=style.css.map */

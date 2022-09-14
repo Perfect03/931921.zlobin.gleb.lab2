@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #EAEAEA;
+  font-weight: 700;
+  font-size: 26px;
+  height: 70px;
+  padding-left: 5px;
+  padding-top: 6px;
+}
+
+footer {
+  background: black;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .tsu-site {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 13px;
+}
+footer .tsu-site a {
+  color: #FFFF80;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+}
+main .column1 {
+  max-width: 25%;
+  background-color: #C8FC98;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+main .column2 {
+  padding-left: 5px;
+}
+main .column3 {
+  padding-left: 5px;
+}
+main .column3 {
+  background: #FDE95E;
+  max-width: 200px;
+}
+main .key {
+  font-size: 14px;
+  font-weight: bold;
+}
+main .value {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+}
+main .text {
+  font-size: 12.91px;
+  line-height: 17.54px;
+}/*# sourceMappingURL=style.css.map */

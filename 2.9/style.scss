@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+p {
+    background: blue;
+    width:581px;
+   min-width:581px;
+    color: white;
+        img {
+            float: right;
+        }
+}
